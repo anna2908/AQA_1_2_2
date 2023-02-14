@@ -11,7 +11,7 @@ public class PostmanEcho {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("test1")
+                .body("test")
 
                 .when()
                 .post("/post")
